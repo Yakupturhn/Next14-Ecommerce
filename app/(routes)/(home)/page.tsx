@@ -1,12 +1,13 @@
-// import { ModeToggle } from "@/components/ModeToggle";
+import Hero from "../_components/Hero";
+import ProductList from "../_components/Product/ProductList";
 
 export default function Home() {
   return (
    
    <div >
 
-{/* <ModeToggle/> */}
-
+<Hero/>
+<ProductList/>
 
    </div>
   );
